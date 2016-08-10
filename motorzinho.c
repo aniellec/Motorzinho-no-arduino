@@ -1,6 +1,6 @@
-int analogicPin = A0;
-int valorPotenciometro = 0; 
-int transistor = 9;
+int analogicPin = A0; //definimos o pino analógico zero
+int valorPotenciometro = 0;  //começamos com valor zero no potenciometro
+int transistor = 9; //o transistor esta no pino nove
 
 void setup() {
   pinMode(9, OUTPUT);
